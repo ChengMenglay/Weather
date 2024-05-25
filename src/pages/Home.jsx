@@ -15,13 +15,16 @@ const Home = () => {
     getData();
   }, [country]);
   const getData = async () => {
-    const res = await axios.get("http://api.weatherapi.com/v1/forecast.json?", {
-      params: {
-        key: "ed1aabfec939403584e151523242105",
-        q: country ? country : "Cambodia",
-        days: 7,
-      },
-    });
+    const res = await axios.get(
+      "https://api.weatherapi.com/v1/forecast.json?",
+      {
+        params: {
+          key: "ed1aabfec939403584e151523242105",
+          q: country ? country : "Cambodia",
+          days: 7,
+        },
+      }
+    );
     if (res && res.data) {
       setForecastData(res.data);
     }
