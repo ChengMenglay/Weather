@@ -1,6 +1,8 @@
 # Weather-app
 
-## Install dependencies
+## Project setup
+
+### Install dependencies
 ```
 npm install
 ```
