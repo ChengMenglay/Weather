@@ -19,7 +19,7 @@ npm run build
 ```
 npm run dev
 ```
-## Open local browser
+### Open local browser
 ```
 http://localhost:5173/
 ```
