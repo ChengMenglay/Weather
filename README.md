@@ -12,6 +12,9 @@ npm install
 npm run build
 ```
 
+
+## Run Application
+
 ### Start the development server
 ```
 npm run dev
